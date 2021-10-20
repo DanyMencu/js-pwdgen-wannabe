@@ -1,7 +1,5 @@
 /* 
-1. Chiedere all'utente il nome
-2. Chiedere all'utente il cognome
-3. Chiedere all'utente il suo colore preferito
+Dati dell'utente per la password
  */
 // 1
 const Nome = prompt ("Come ti chiami?");
@@ -14,8 +12,6 @@ const Colore = prompt ("Quale è il tuo colore preferito?");
 Generare la password unendo i dati dell'utente
  */
 const Password = Nome + Cognmome + Colore + "21";
-
-console.log (Password);
 
 /* Mostrare a scherom la password generata */
 
